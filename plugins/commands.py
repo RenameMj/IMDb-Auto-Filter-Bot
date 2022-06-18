@@ -66,8 +66,8 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Search again', url= 'https://t.me/slmovieshubsl'),
-                        InlineKeyboardButton('share group', url='https://telegram.me/share/url?url=https://t.me/slmovieshubsl')
+                        InlineKeyboardButton('🔰 ᴜᴘᴀᴅᴛᴇs 🔰', url= 'https://t.me/MJ_LinkZZ'),
+                        InlineKeyboardButton('⭕ ɢʀᴏᴜᴘ ⭕', url='https://telegram.me/share/url?url=https://t.me/MJ_Film_House')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -99,12 +99,11 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Search Here", url='https://t.me/slmovieshubsl'),
-                        InlineKeyboardButton("Source Code", url='https://github.com/kalanakt/imdb-autofilter-bot'),
-                    ],
+                        InlineKeyboardButton("Search Here", url='https://t.me/MJ_Film_House'),
+                    
                    [
-                       InlineKeyboardButton("Series Channel", url='https://t.me/timelytvshow'),
-                       InlineKeyboardButton("Support Group", url='https://t.me/slmovieshubsl'),
+                       InlineKeyboardButton("⍟ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ⍟", url='https://t.me/MJ_LinkZZ'),
+                       InlineKeyboardButton("Support Group", url='https://t.me/MJ_Film_House'),
                     ],
                      [
                         InlineKeyboardButton("About", callback_data="about")
@@ -196,8 +195,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Series Channel', url='https://t.me/timelytvshow'),
-            InlineKeyboardButton('Source Code', url='https://github.com/kalanakt/imdb-autofilter-bot')
+            InlineKeyboardButton('⍟ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ⍟", url='https://t.me/MJ_LinkZZ'),
+            InlineKeyboardButton('Support Group", url='https://t.me/MJ_Film_House')
         ]
         ]
     
